@@ -6,7 +6,7 @@ workers_dev = true
 
 routes = [
   
-  { pattern = "sa-up01.jaco.live.redirect.benx.workers.dev", custom_domain = true },  
+  { pattern = "sa-up01.jaco.live.request.benx.workers.dev", custom_domain = true },  
 
   ]
 

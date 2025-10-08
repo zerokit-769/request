@@ -1,0 +1,17 @@
+name = "request"
+main = "_worker.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat_v2"]
+workers_dev = true
+
+routes = [
+  
+  { pattern = "sa-up01.jaco.live.redirect.benx.workers.dev", custom_domain = true },  
+
+  ]
+
+[unsafe.metadata.observability]
+enabled = true
+
+[observability.logs]
+enabled = true

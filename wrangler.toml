@@ -7,7 +7,9 @@ workers_dev = true
 routes = [
   
   { pattern = "ava.game.naver.com.request.benx.workers.dev", custom_domain = true },  
-
+  { pattern = "collection.linefriends.com.request.benx.workers.dev", custom_domain = true },  
+  { pattern = "support.zoom.us.request.benx.workers.dev", custom_domain = true },  
+  
   ]
 
 [unsafe.metadata.observability]

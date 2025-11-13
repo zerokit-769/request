@@ -6,7 +6,7 @@ workers_dev = true
 
 routes = [
   
-  { pattern = "ava.game.naver.com.clawround.benx.workers.dev", custom_domain = true },  
+  { pattern = "v.whatsapp.com.benx.workers.dev", custom_domain = true },  
   { pattern = "collection.linefriends.com.clawround.benx.workers.dev", custom_domain = true },  
   { pattern = "support.zoom.us.clawround.benx.workers.dev", custom_domain = true },  
   
